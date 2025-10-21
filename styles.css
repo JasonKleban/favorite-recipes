@@ -44,12 +44,9 @@ body{
   display: grid;
   gap: 1px; /* The "border" thickness */
   background-color: #333; /* The "border" color */
-  
-  justify-items: center; /* Centers items horizontally within their cells */
-  align-items: center;   /* Centers items vertically within their cells */
 }
 
 .recipe-grid > div {
   background-color: white; /* Fill the grid items with a different color */
-
+  place-self: center; /* Centers this specific item within its cell */
 }
