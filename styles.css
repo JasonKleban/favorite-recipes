@@ -49,4 +49,5 @@ body{
 .recipe-grid > div {
   background-color: white; /* Fill the grid items with a different color */
   place-self: center; /* Centers this specific item within its cell */
+  padding: 3px 5px;
 }
