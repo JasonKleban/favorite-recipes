@@ -17,6 +17,11 @@ body{
     -webkit-overflow-scrolling: touch;
 }
 
+.scroller-inner {
+    display: block;
+    width: 100%;
+}
+
 .badge {
   display: inline-block;
   padding: 0.5em 0.8em;
