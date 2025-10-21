@@ -39,3 +39,17 @@ body{
     body{background:#fff;color:#000}
     .hero, .card{box-shadow:none}
 }
+
+.recipe-grid {
+  display: grid;
+  gap: 1px; /* The "border" thickness */
+  background-color: #333; /* The "border" color */
+  
+  justify-items: center; /* Centers items horizontally within their cells */
+  align-items: center;   /* Centers items vertically within their cells */
+}
+
+.recipe-grid > div {
+  background-color: white; /* Fill the grid items with a different color */
+
+}
