@@ -4,7 +4,7 @@ html,body{
     font-family: system-ui,sans-serif;
 }
 body{
-    margin:0;
+    margin: 0 4px;
 }
 
 .badge {
@@ -18,6 +18,12 @@ body{
   text-align: center;
   line-height: 1;
   /* Add any other desired styling like box-shadow, margin, etc. */
+}
+
+.note {
+    font-size: 0.9rem;
+    color: #707070;
+    font-style: italic;
 }
 
 /* Tablet (iPad) */
@@ -41,7 +47,10 @@ body{
     .hero, .card{box-shadow:none}
 }
 
-.recipe-grid {
+.recipe-grid {  
+  grid-auto-columns: minmax(0px, auto);
+  grid-auto-rows: minmax(0px, auto);
+
   display: grid;
   gap: 1.1px;
   background-color: #333;
