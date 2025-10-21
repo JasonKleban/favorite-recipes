@@ -22,13 +22,45 @@ body{
   line-height: 1;
 }
 
-.sideways {
-    writing-mode: vertical-rl;
+:has(data-combine) {
+    display: flex;
+    flex-direction: row;
+}
+
+:has(data-combine)::before {
+    content: attr(data-prefix);
+    writing-mode: sideways-lr;
     text-orientation: mixed;
     display: inline-block;
-    padding: 0.5em 0.8em;
+    padding: 0.5em 0.3em;
     background-color: #000000;
     color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+}
+
+.timer {
+    display: block;
+    padding: 0.5em 0.3em;
+    background-color: #c5c5c5;
+    color: rgb(97, 97, 97)5c5;;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+}
+
+:has(data-timer) {
+    display: flex;
+    flex-direction: column;
+}
+
+:has(data-timer)::before {
+    content: attr(data-prefix);
+    display: block;
+    padding: 0.5em 0.3em;
+    background-color: #c5c5c5;
+    color: rgb(97, 97, 97)5c5;
     font-weight: bold;
     text-align: center;
     line-height: 1;
@@ -50,9 +82,12 @@ body{
   border: 1.1px solid #333;
 }
 
-.recipe-grid > div {
+.recipe-grid > div  {
   background-color: white;
   text-align: center;
   align-content: center;
+}
+
+.recipe-grid p {
   padding: 3px 5px;
 }
