@@ -1,0 +1,28 @@
+*{box-sizing:border-box}
+html,body{
+    height:100%
+}
+body{
+    margin:0;
+}
+
+/* Tablet (iPad) */
+@media (min-width:768px){
+    .hero{padding:1.25rem}
+    main{grid-template-columns:1fr 320px}
+    .two-col{grid-template-columns:1fr 320px}
+}
+
+/* Desktop */
+@media (min-width:1024px){
+    .hero img{width:160px;height:160px;flex:0 0 160px}
+    main{grid-template-columns:1fr 360px}
+    .two-col{grid-template-columns:1fr 360px}
+    .title{font-size:clamp(1.5rem, 2.2vw, 2rem)}
+}
+
+/* Print */
+@media print{
+    body{background:#fff;color:#000}
+    .hero, .card{box-shadow:none}
+}
