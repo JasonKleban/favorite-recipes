@@ -89,7 +89,7 @@ body{
 }
 
 .recipe-grid {  
-  grid-auto-columns: minmax(120px, auto);
+  grid-auto-columns: minmax(120px, 300px);
   grid-auto-rows: minmax(0px, auto);
 
   display: grid;
