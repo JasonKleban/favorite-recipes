@@ -49,6 +49,7 @@ body{
 
 .recipe-grid > div {
   background-color: white;
-  place-content: center;
+  text-align: center;
+  align-content: center;
   padding: 3px 5px;
 }
