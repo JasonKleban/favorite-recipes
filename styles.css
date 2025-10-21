@@ -28,7 +28,7 @@ body{
 }
 
 [data-combine]::before {
-    content: attr(data-prefix);
+    content: attr(data-combine);
     writing-mode: sideways-lr;
     text-orientation: mixed;
     display: inline-block;
@@ -46,7 +46,7 @@ body{
 }
 
 [data-timer]::before {
-    content: attr(data-prefix);
+    content: attr(data-timer);
     display: block;
     padding: 0.5em 0.3em;
     background-color: #c5c5c5;
