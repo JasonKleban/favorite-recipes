@@ -1,4 +1,7 @@
+
+
 *{box-sizing:border-box}
+
 html,body{
     height:100%;
     font-family: system-ui,sans-serif;
@@ -8,43 +11,21 @@ body{
 }
 
 .badge {
-  display: inline-block; /* Allows setting width, height, padding */
+  display: inline-block;
   padding: 0.5em 0.8em;
-  background-color: #000000; /* Example background color */
+  background-color: #000000;
   color: white;
-  border-radius: 1em; /* Rounded corners */
+  border-radius: 1em;
   font-size: 0.9em;
   font-weight: bold;
   text-align: center;
   line-height: 1;
-  /* Add any other desired styling like box-shadow, margin, etc. */
 }
 
 .note {
     font-size: 0.9rem;
     color: #707070;
     font-style: italic;
-}
-
-/* Tablet (iPad) */
-@media (min-width:768px){
-    .hero{padding:1.25rem}
-    main{grid-template-columns:1fr 320px}
-    .two-col{grid-template-columns:1fr 320px}
-}
-
-/* Desktop */
-@media (min-width:1024px){
-    .hero img{width:160px;height:160px;flex:0 0 160px}
-    main{grid-template-columns:1fr 360px}
-    .two-col{grid-template-columns:1fr 360px}
-    .title{font-size:clamp(1.5rem, 2.2vw, 2rem)}
-}
-
-/* Print */
-@media print{
-    body{background:#fff;color:#000}
-    .hero, .card{box-shadow:none}
 }
 
 .recipe-grid {  
