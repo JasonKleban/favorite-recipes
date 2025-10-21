@@ -38,6 +38,8 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: stretch;
+    flex: 1 0 auto;
+    width: 100%;
 }
 
 [data-combine]::before {
@@ -57,6 +59,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: stretch;
+    width: 100%;
 }
 
 [data-timer]::before {
@@ -64,7 +67,7 @@ body{
     display: block;
     padding: 0.5em 0.3em;
     background-color: #ebebeb;
-    color: rgb(187, 187, 187)5c5;
+    color: #8f8f8f;
     font-weight: bold;
     text-align: center;
     line-height: 1;
