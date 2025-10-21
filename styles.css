@@ -72,10 +72,11 @@ body{
   border: 1.1px solid #333;
 }
 
-.recipe-grid > div  {
+.recipe-grid > *  {
   background-color: white;
   text-align: center;
   align-content: center;
+  display: flex
 }
 
 .recipe-grid p {
