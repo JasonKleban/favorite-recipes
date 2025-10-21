@@ -39,7 +39,6 @@ body{
     flex-direction: row;
     justify-content: stretch;
     flex: 1 0 auto;
-    width: 100%;
 }
 
 [data-combine]::before {
@@ -105,7 +104,7 @@ body{
   display: flex
 }
 
-.recipe-grid p {
-  display: inline-block;
+.recipe-grid .step {
+  display: block;
   padding: 3px 5px;
 }
