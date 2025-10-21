@@ -10,6 +10,13 @@ body{
     margin: 0 4px;
 }
 
+.scroller {
+    overflow-x: visible;
+    overflow-y: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
 .badge {
   display: inline-block;
   padding: 0.5em 0.8em;
@@ -74,7 +81,7 @@ body{
 }
 
 .recipe-grid {  
-  grid-auto-columns: minmax(0px, auto);
+  grid-auto-columns: minmax(120px, auto);
   grid-auto-rows: minmax(0px, auto);
 
   display: grid;
