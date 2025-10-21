@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Spanish Rice</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        .recipe-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+        }
+
+        .div1 { grid-area: 1 / 1 / 2 / 2; }
+        .div2 { grid-area: 2 / 1 / 3 / 2; }
+        .div3 { grid-area: 1 / 2 / 3 / 3; }
+        .div4 { grid-area: 1 / 3 / 3 / 4; }
+        .div5 { grid-area: 1 / 4 / 3 / 5; }
+    </style>
+</head>
+<body>
+    <h1>Spanish Rice</h1>
+
+    <div class="recipe-grid">
+        <div class="div1">Oil (Avocado, Grapeseed or Vegetable)</div>
+        <div class="div2">2 cup dry long grain white rice</div>
+        <div class="div3"><div class="badge">Combine</div> Cook rice in rolling boil until rice begins to float (10 minutes)</div>
+        <div class="div4"><div class="badge">Strain</div> Rinse away starch and unabsorbed salt with cold tap water</div>
+        <div class="div5"><div class="badge">Steam</div> covered on low heat until hot (5-10 minutes)</div>
+    </div>
+</body>
+</html>

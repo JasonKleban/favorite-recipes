@@ -6,6 +6,19 @@ body{
     margin:0;
 }
 
+.badge {
+  display: inline-block; /* Allows setting width, height, padding */
+  padding: 0.5em 0.8em;
+  background-color: #000000; /* Example background color */
+  color: white;
+  border-radius: 1em; /* Rounded corners */
+  font-size: 0.9em;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1;
+  /* Add any other desired styling like box-shadow, margin, etc. */
+}
+
 /* Tablet (iPad) */
 @media (min-width:768px){
     .hero{padding:1.25rem}
