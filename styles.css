@@ -92,6 +92,8 @@ body{
   grid-auto-columns: minmax(120px, auto);
   grid-auto-rows: minmax(0px, auto);
 
+  grid-template-columns: minmax(0, 1fr) 300px;
+
   display: grid;
   gap: 1.1px;
   background-color: #333;
