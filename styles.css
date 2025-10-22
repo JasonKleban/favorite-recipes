@@ -60,8 +60,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: stretch;
-    flex: 1 0 auto;
-    max-width: fit-content;
+    flex: 1 1 auto;
 }
 
 [data-combine]::before {
