@@ -105,6 +105,8 @@ body{
 }
 
 .recipe-grid .step {
-  display: block;
+  display: flex;
   padding: 3px 5px;
+  align-items: center;
+  height: 100%;
 }
