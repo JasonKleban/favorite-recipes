@@ -13,6 +13,9 @@ html,body{
 
 body {
     margin: 0 4px 4px;
+}
+
+body.recipe-page {
     overflow-x: hidden;
     overflow-y: hidden;
     display: flex;
