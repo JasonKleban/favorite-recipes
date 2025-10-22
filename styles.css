@@ -115,8 +115,16 @@ body{
   color: white;
 }
 
-.recipe-grid p, .recipe-grid .step {
+.recipe-grid .step {
   display: flex;
+  padding: 3px 5px;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.recipe-grid p {
+  display: block;
   padding: 3px 5px;
   align-items: center;
   justify-content: center;
