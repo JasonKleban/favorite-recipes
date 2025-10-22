@@ -134,3 +134,7 @@ body{
   justify-content: center;
   height: 100%;
 }
+
+a[data-soon] {
+    color: lightcoral
+}
