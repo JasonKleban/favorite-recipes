@@ -29,7 +29,7 @@ body.recipe-page {
 }
 
 .scroller {
-  flex: 0 1 auto;
+  flex: 1 1 auto;
   overflow-x: auto;
   overflow-y: auto;
   white-space: nowrap;
@@ -37,9 +37,9 @@ body.recipe-page {
 }
 
 .scroller-inner {
-    display: block;
-    width: 100%;
-    min-height: fit-content;
+  display: block;
+  min-height: fit-content;
+  width: fit-content;
 }
 
 .badge {
@@ -117,7 +117,7 @@ body.recipe-page {
   gap: 1.1px;
   background-color: #333;
   border: 1.1px solid #333;
-  grid-template-columns: minmax(auto, 80vw);
+  grid-template-columns: minmax(auto, max-content);
   grid-template-rows: minmax(auto, auto);
 
   min-width: fit-content;
